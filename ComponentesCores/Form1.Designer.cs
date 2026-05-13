@@ -51,7 +51,7 @@
             this.toolStrip1.LayoutStyle = System.Windows.Forms.ToolStripLayoutStyle.HorizontalStackWithOverflow;
             this.toolStrip1.Location = new System.Drawing.Point(17, 116);
             this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Size = new System.Drawing.Size(683, 153);
+            this.toolStrip1.Size = new System.Drawing.Size(714, 153);
             this.toolStrip1.TabIndex = 0;
             this.toolStrip1.Text = "toolStrip1";
             // 
@@ -77,6 +77,7 @@
             this.toolStripButton2.Size = new System.Drawing.Size(170, 150);
             this.toolStripButton2.Text = "Checkbox";
             this.toolStripButton2.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolStripButton2.Click += new System.EventHandler(this.toolStripButton2_Click);
             // 
             // toolStripButton3
             // 
@@ -88,6 +89,7 @@
             this.toolStripButton3.Size = new System.Drawing.Size(170, 150);
             this.toolStripButton3.Text = "Listbox";
             this.toolStripButton3.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolStripButton3.Click += new System.EventHandler(this.toolStripButton3_Click);
             // 
             // toolStripButton4
             // 
@@ -100,6 +102,7 @@
             this.toolStripButton4.Size = new System.Drawing.Size(170, 150);
             this.toolStripButton4.Text = "ComboBox";
             this.toolStripButton4.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolStripButton4.Click += new System.EventHandler(this.toolStripButton4_Click);
             // 
             // button1
             // 

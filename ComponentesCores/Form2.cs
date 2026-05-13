@@ -16,5 +16,29 @@ namespace ComponentesCores
         {
             InitializeComponent();
         }
+
+        private void radioButton1_CheckedChanged(object sender, EventArgs e)
+        {
+            this.BackColor = Color.LightSkyBlue;
+            radioButton1.ForeColor = Color.White;
+        }
+
+        private void radioButton2_CheckedChanged(object sender, EventArgs e)
+        {
+            this.BackColor = Color.Pink;
+            radioButton2.ForeColor = Color.White;
+        }
+
+        private void radioButton3_CheckedChanged(object sender, EventArgs e)
+        {
+            this.BackColor= Color.LightGreen;
+            radioButton3.ForeColor = Color.White;
+        }
+
+        private void radioButton4_CheckedChanged(object sender, EventArgs e)
+        {
+            this.BackColor=Color.MediumPurple;
+            radioButton4.ForeColor = Color.White;
+        }
     }
 }
