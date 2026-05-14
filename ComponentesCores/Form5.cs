@@ -16,5 +16,28 @@ namespace ComponentesCores
         {
             InitializeComponent();
         }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (comboBox1.Text == "Verde")
+            {
+                this.BackColor = Color.LightGreen;
+            }
+
+            else if (comboBox1.Text == "Azul")
+            {
+                this.BackColor = Color.LightSkyBlue;
+            }
+
+            else if (comboBox1.Text == "Rosa")
+            {
+                this.BackColor = Color.Pink;
+            }
+
+            else if (comboBox1.Text == "Roxo")
+            {
+                this.BackColor = Color.MediumPurple;
+            }
+        }
     }
 }

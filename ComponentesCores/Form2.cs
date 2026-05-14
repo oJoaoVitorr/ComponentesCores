@@ -40,5 +40,10 @@ namespace ComponentesCores
             this.BackColor=Color.MediumPurple;
             radioButton4.ForeColor = Color.White;
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
