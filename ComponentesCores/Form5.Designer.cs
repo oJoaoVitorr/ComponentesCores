@@ -35,8 +35,9 @@
             // 
             // comboBox1
             // 
-            this.comboBox1.DropDownHeight = 120;
-            this.comboBox1.DropDownWidth = 300;
+            this.comboBox1.DropDownHeight = 200;
+            this.comboBox1.DropDownWidth = 120;
+            this.comboBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.IntegralHeight = false;
             this.comboBox1.Items.AddRange(new object[] {
@@ -44,9 +45,9 @@
             "Azul",
             "Rosa",
             "Roxo"});
-            this.comboBox1.Location = new System.Drawing.Point(321, 88);
+            this.comboBox1.Location = new System.Drawing.Point(293, 72);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(136, 21);
+            this.comboBox1.Size = new System.Drawing.Size(200, 41);
             this.comboBox1.TabIndex = 0;
             this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
@@ -76,11 +77,13 @@
             this.button1.TabIndex = 8;
             this.button1.Text = "voltar";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // Form5
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.CancelButton = this.button1;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label1);
